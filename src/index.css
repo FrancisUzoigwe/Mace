@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: Zah;
+  src: url(/public/fonts/Zaptron-Regular.otf);
+}
+.Zah {
+  font-family: Zah;
+}
+
+@font-face {
+  font-family: Poppin;
+  src: url(/public/fonts/Poppins-Regular.ttf);
+}
+
+.Poppin {
+  font-family: Poppin;
+}
+
+@font-face {
+  font-family: Ever;
+  src: url(/public/fonts/Evergreen.otf);
+}
+
+.Ever {
+  font-family: Ever;
+}
+:root {
+  font-family: Poppin, Zah, Ever;
+  line-height: 1.5;
+  font-weight: 400;
+}
